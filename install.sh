@@ -2,7 +2,7 @@
 set -euo pipefail
 
 skill_dir="${CODEX_HOME:-$HOME/.codex}/skills/okx-ai-a2a-asp-onboarding"
-repo_url="https://github.com/a18604585304-hub/okx-ai-a2a-asp-onboarding.git"
+repo_url="https://github.com/agent-evidence-lab/okx-ai-a2a-asp-onboarding.git"
 
 mkdir -p "$(dirname "$skill_dir")"
 
