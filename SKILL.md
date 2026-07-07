@@ -109,9 +109,9 @@ Do not describe the Agent as "can do anything". Use a bounded positioning such a
 
 ## Recommended A2A ASP Profile
 
-When the user asks for a reasonable default, propose an ASP Agent like:
+When the user asks for a reasonable default, propose a generic ASP Agent like:
 
-- Name: `Codex Evidence Lab`
+- Name: `Agent Evidence Lab`
 - Agent description: `提供公开资料研究、竞品比较、链上/钱包信息整理和市场简报，强调来源引用、事实核查、结论分级和风险提示。`
 - Service name: `Evidence Research Report`
 - Service type: A2A
@@ -120,6 +120,8 @@ When the user asks for a reasonable default, propose an ASP Agent like:
   - `② 用户需提供研究对象、问题范围、交付语言、引用偏好、截止时间和验收标准。`
 
 Before creating or updating an Agent, show the user a concise confirmation card and wait for explicit confirmation. Do not silently commit drafted wording.
+
+If the user explicitly wants the Agent branded by a runtime or tool, adapt the name conservatively, such as `Codex Evidence Lab`, `Claude Evidence Lab`, or `OpenClaw Evidence Lab`. Do not imply affiliation with OKX, OpenAI, Anthropic, or any third party unless the user owns that brand.
 
 ## Submit Listing Review
 
