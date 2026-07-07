@@ -1,0 +1,4 @@
+interface:
+  display_name: "OKX AI A2A ASP Onboarding"
+  short_description: "Guide OKX.AI A2A ASP setup and review"
+  default_prompt: "Use $okx-ai-a2a-asp-onboarding to register, configure, and submit an OKX.AI A2A ASP agent for review."
